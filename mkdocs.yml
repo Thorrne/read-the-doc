@@ -1,0 +1,12 @@
+site_name: My Custom Language Standard Library  # Your project name
+theme: readthedocs  # Or other themes like 'mkdocs', 'material'
+nav:
+    - Home: index.md  # Your main landing page
+    - Standard Library: stdlib.md  # Your stdlib documentation
+    # Add other pages as needed (e.g., Language Reference, Examples)
+    - Language Reference: language/basics.md
+    - Examples: examples.md
+
+# Optional: Add search if you want it
+plugins:
+  - search
